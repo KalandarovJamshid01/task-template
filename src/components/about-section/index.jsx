@@ -1,4 +1,4 @@
-export default function SectionAboutComponent() {
+export default function AboutSectionComponent() {
 
     const cards = [
         {
