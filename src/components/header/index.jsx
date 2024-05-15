@@ -1,9 +1,12 @@
 // import React from 'react';
 import headerMan from '../../assets/header-man.png'
+import headerBg from '../../assets/header-bg.png'
 
 export default function HeaderComponent() {
     return (
-        <div className={'flex justify-center w-full h-[632px] mt-3 bg-header bg-cover bg-center'}>
+        <div className={'flex justify-center w-full h-[632px] mt-3 bg-cover bg-center'}
+        style={{backgroundImage: `url('${headerBg}')`}}
+        >
             <div className="container py-9 flex justify-between items-center">
                 <div className={'w-3/5 lg:flex h-full hidden'}>
                     <div className={'w-full justify-center grow h-full border-2 border-primary_yellow bg-black/70'}>
