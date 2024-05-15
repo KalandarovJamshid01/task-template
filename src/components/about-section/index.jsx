@@ -12,7 +12,7 @@ export default function AboutSectionComponent() {
         },
         {
             title: 'Information',
-            img: 'src/assets/exchange/img_2.png',
+            img: 'src/assets/exchange/img_1.png',
             description: '지점안내'
         },
         {
@@ -21,7 +21,7 @@ export default function AboutSectionComponent() {
         },
         {
             title: 'Support',
-            img: 'src/assets/exchange/img_3.png',
+            img: 'src/assets/exchange/img_1.png',
             description: '고객지원'
         },
         {
