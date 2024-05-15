@@ -32,7 +32,7 @@ export default function NavbarComponent() {
                 <div >
                     <img src={logo} alt="template-logo" className={'w-72'}/>
                 </div>
-                <div className={'flex items-center gap-20'}>
+                <div className={'lg:flex hidden items-center gap-20'}>
                     {
                         navLink.map(({label}, index) => {
                             return (

@@ -16,7 +16,7 @@ export default function HeaderComponent() {
                         </div>
                     </div>
                 </div>
-                <div className={'w-2/5 flex flex-col justify-center text-center items-center'}>
+                <div className={'lg:w-2/5 w-full flex flex-col justify-center text-center items-center'}>
                     <h2 className={'font-bold text-white leading-snug tracking-wide text-6xl'}>최고가 매입</h2>
                     <p className={'text-3xl text-primary_yellow '}>24K 18K 14K 다이아몬드 <br/>
                         치금 폐금 잡금 은제품</p>
