@@ -4,7 +4,7 @@ import map from '../../assets/google-map.png'
 export default function ContactSectionComponent() {
 
     return (
-        <div className={'w-full flex justify-center py-4 h-auto'}>
+        <div className={'w-full flex justify-center pt-8 pb-24 h-auto'}>
             <div className="container flex md:flex-row flex-col justify-between w-full">
                 <div className={'flex flex-col justify-between h-full py-10'}>
                     <div>
