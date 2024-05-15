@@ -27,7 +27,7 @@ export default function ContactSectionComponent() {
                     </div>
                 </div>
                 <div>
-                    <div className={'border-2 border-primary_yellow w-[700px]'}>
+                    <div className={'border-2 border-primary_yellow lg:w-[700px] w-full'}>
                         <img src={map} alt="" className={'object-cover object-center w-full'}/>
                     </div>
                 </div>
