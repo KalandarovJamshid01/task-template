@@ -1,9 +1,13 @@
+import img1 from '../../assets/exchange/img_1.png';
+import img2 from '../../assets/exchange/img_2.png';
+import img3 from '../../assets/exchange/img_3.png';
+
 export default function AboutSectionComponent() {
 
     const cards = [
         {
             title: 'Introduciton',
-            img: 'src/assets/exchange/img_1.png',
+            img: img1,
             description: '업체소개'
         },
         {
@@ -12,7 +16,7 @@ export default function AboutSectionComponent() {
         },
         {
             title: 'Information',
-            img: 'src/assets/exchange/img_1.png',
+            img: img2,
             description: '지점안내'
         },
         {
@@ -21,7 +25,7 @@ export default function AboutSectionComponent() {
         },
         {
             title: 'Support',
-            img: 'src/assets/exchange/img_1.png',
+            img: img3,
             description: '고객지원'
         },
         {
@@ -45,8 +49,12 @@ export default function AboutSectionComponent() {
                             return (
                                 <div key={index}
                                      className={`w-[400px] h-52
-                                      ${img ? `text-white bg-[url('${img}')] bg-cover bg-center bg-black/50`
-                                         : 'text-primary_yellow border-2 border-primary_yellow'}`}>
+                                      ${img ? `text-white  bg-cover bg-center bg-black/50`
+                                         : 'text-primary_yellow border-2 border-primary_yellow'}`}
+                                     style={{
+                                         backgroundImage: `url('${img}')`
+                                     }}
+                                >
                                     <div
                                         className={`flex h-full flex-col justify-center items-center ${img ? 'bg-black/60' : ''}`}>
                                         <div className={'italic font-radley font-light text-3xl leading-8'}>
