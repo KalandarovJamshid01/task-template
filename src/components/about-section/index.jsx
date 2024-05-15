@@ -44,7 +44,7 @@ export default function AboutSectionComponent() {
                         cards.map(({img, title, description}, index) => {
                             return (
                                 <div key={index}
-                                     className={`w-1/4 h-52
+                                     className={`w-[400px] h-52
                                       ${img ? `text-white bg-[url('${img}')] bg-cover bg-center bg-black/50`
                                          : 'text-primary_yellow border-2 border-primary_yellow'}`}>
                                     <div

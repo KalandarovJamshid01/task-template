@@ -5,7 +5,7 @@ export default function ContactSectionComponent() {
 
     return (
         <div className={'w-full flex justify-center pt-8 pb-24 h-auto'}>
-            <div className="container flex md:flex-row flex-col justify-between w-full">
+            <div className="container flex lg:flex-row flex-col justify-between w-full">
                 <div className={'flex flex-col justify-between h-full py-10'}>
                     <div>
                         <h1 className={'text-5xl font-medium text-primary_yellow'}>(주) 한국감정금거래소</h1>
