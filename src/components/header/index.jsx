@@ -5,12 +5,14 @@ export default function HeaderComponent() {
     return (
         <div className={'flex justify-center w-full h-[632px] mt-3 bg-header bg-cover bg-center'}>
             <div className="container py-9 flex justify-between items-center">
-                <div className={'w-3/5 grow h-full border-2 border-primary_yellow bg-black/70'}>
-                    <div className={'relative h-full'}>
-                        <img src={headerMan} alt="header-man" className={'absolute bottom-0 h-[615px]'}/>
-                        <div
-                            className={'w-full flex justify-center pt-3 font-radley text-primary_gray text-4xl font-normal leading-10 italic'}>
-                            Korea Gold Exchange
+                <div className={'w-3/5 lg:flex h-full hidden'}>
+                    <div className={'w-full justify-center grow h-full border-2 border-primary_yellow bg-black/70'}>
+                        <div className={'relative h-full'}>
+                            <img src={headerMan} alt="header-man" className={'absolute bottom-0 left-0 h-[615px]'}/>
+                            <div
+                                className={'w-full flex justify-center pt-3 font-radley text-primary_gray text-4xl font-normal leading-10 italic'}>
+                                Korea Gold Exchange
+                            </div>
                         </div>
                     </div>
                 </div>
